@@ -55,3 +55,7 @@ docker buildx build --platform linux/amd64  -t lilxb84/curl-http3:latest -t lilx
 docker buildx build --platform linux/arm64 -t lilxb84/curl-http3:latest -t lilxb84/curl-http3:8.1.2 . --push
 
 ```
+
+## Disclaimer
+
+Thanks @yurimuski for making this available. I've made some changes due to some incompatibilities.
